@@ -31,13 +31,13 @@ int main(int argc, char** argv) {
     int step;
     string dimension;
 
-   /* if (argc != 4 && argc != 5) {
+    if (argc != 4 && argc != 5) {
         std::cout << "Error: Command line arguments are incorrect. Call program as (1) or (2)" << std::endl;
         std::cout << "(1)\t./AwwGeezMan {start} {stop} {dimension}" << std::endl;
         std::cout << "(2)\t./AwwGeezMan {start} {stop} {step} {dimension}" << std::endl;
         return -1;
-    } */
-    if (argc == 4) {
+    }
+    else if (argc == 4) {
         dimension = argv[3];
     }
     else if (argc == 5) {
@@ -45,6 +45,11 @@ int main(int argc, char** argv) {
         dimension = argv[4];
     }
 
+    if (dimension != "C137" && dimension != "Z286") {
+      cout << "ERROR: Unknown dimension!!";
+     return -1;
+    }
+ 
     if (dimension == "C137") {
         cout << "Morty C137 says:" << endl;
         if (argc == 4) {
