@@ -33,7 +33,7 @@ int main(int argc, char** argv) {
     int step;
     string dimension;
 
-    if (ac != 4 and ac != 5) {
+    if (argc != 4 && argc != 5) {
         std::cout << "Error: Command line arguments are incorrect. Call program as (1) or (2)" << std::endl;
 	std::cout << "(1)\t./AwwGeezMan {start} {stop} {dimension}" << std::endl;
 	std::cout << "(2)\t./AwwGeezMan {start} {stop} {step} {dimension}" << std::endl;	
