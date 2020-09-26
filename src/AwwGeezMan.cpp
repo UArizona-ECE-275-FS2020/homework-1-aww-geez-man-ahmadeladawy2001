@@ -46,6 +46,7 @@ int main(int argc, char** argv) {
     }
 
     if (dimension == "C137") {
+        cout << "Morty C137 says:" << endl;
         if (argc == 4) {
             C137::Morty(start, stop);
         }
@@ -54,6 +55,7 @@ int main(int argc, char** argv) {
         }
     }
     else if (dimension == "Z286") {
+        cout << "Morty Z286 says:" << endl;
         if (argc == 4) {
             Z286::Morty(start, stop);
         }
