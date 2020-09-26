@@ -31,7 +31,7 @@ namespace C137 {
                 cout << i << ": Geez" << endl;
             }
             else {
-                cout << i << ":" << endl;
+                cout << i << ": " << endl;
             }
         }
     }
@@ -48,7 +48,7 @@ namespace C137 {
                 cout << i << ": Geez" << endl;
             }
             else {
-                cout << i << ":" << endl;
+                cout << i << ": " << endl;
             }
         }
     }
@@ -74,7 +74,7 @@ namespace Z286 {
                 cout << i << ": zeeG" << endl;
             }
             else {
-                cout << i << ":" << endl;
+                cout << i << ": " << endl;
             }
         }
     }
@@ -91,7 +91,7 @@ namespace Z286 {
                 cout << i << ": zeeG" << endl;
             }
             else {
-                cout << i << ":" << endl;
+                cout << i << ": " << endl;
             }
         }
     }
